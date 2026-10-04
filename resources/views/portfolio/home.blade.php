@@ -33,14 +33,14 @@
 
     <script type="application/ld+json">
     {
-        "\u0040context": "https://schema.org",
-        "\u0040type": "Person",
+        "@context": "https://schema.org",
+        "@type": "Person",
         "name": "Hassan Iftikhar",
         "jobTitle": "Full-Stack Laravel Developer",
         "url": "{{ url()->current() }}",
-        "email": "mailto:hassaniftikhar776%40gmail.com",
+        "email": "mailto:hassaniftikhar776@gmail.com",
         "address": {
-            "\u0040type": "PostalAddress",
+            "@type": "PostalAddress",
             "addressLocality": "Faisalabad",
             "addressCountry": "Pakistan"
         },
@@ -56,7 +56,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght%40400;500;600;700&family=Manrope:wght%40500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -204,7 +204,7 @@
 
                         <span>
                             <i class="fa-regular fa-envelope"></i>
-                            hassaniftikhar776&#64;gmail.com
+                            hassaniftikhar776@gmail.com
                         </span>
 
                     </div>
@@ -332,7 +332,7 @@
 
                             <small>Email</small>
 
-                            <strong>hassaniftikhar776&#64;gmail.com
+                            <strong>hassaniftikhar776@gmail.com
                             </strong>
 
                         </div>
@@ -614,24 +614,25 @@
 
                         <div class="project-image">
 
-                            <i class="fa-solid fa-layer-group"></i>
+                            <i class="fa-solid fa-list-check"></i>
 
                         </div>
 
                         <div class="project-content">
 
                             <span class="project-type">
-                                Laravel Project
+                                Full-Stack Web App
                             </span>
 
                             <h3 class="project-title">
-                                Project Two
+                                TaskFlow
                             </h3>
 
                             <p class="project-description">
 
-                                Replace this with another real project
-                                that demonstrates your development skills.
+                                A task management application with user
+                                authentication, personal tasks, search and
+                                filtering, status tracking and notifications.
 
                             </p>
 
@@ -639,17 +640,20 @@
 
                                 <span class="tech">Laravel</span>
                                 <span class="tech">MySQL</span>
+                                <span class="tech">Bootstrap</span>
+                                <span class="tech">JavaScript</span>
 
                             </div>
 
                             <div class="project-links">
 
-                                <a href="#" target="_blank">
+                                <a href="https://github.com/i-am-Hassan/TaskManager" target="_blank"
+                                    rel="noopener noreferrer">
                                     <i class="fa-brands fa-github"></i>
                                     View Code
                                 </a>
 
-                                <a href="#" target="_blank">
+                                <a href="http://taskflowapp.infy.click" target="_blank" rel="noopener noreferrer">
                                     Live Demo
                                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                                 </a>
@@ -835,10 +839,10 @@
 
                     <div class="stat">
 
-                        <strong>1+</strong>
+                        <strong>2+</strong>
 
                         <span>
-                            Major Project
+                            Major Projects
                         </span>
 
                     </div>
@@ -902,7 +906,7 @@
 
                             </p>
 
-                            <a href="mailto:hassaniftikhar776%40gmail.com" class="primary-btn contact-button">
+                            <a href="mailto:hassaniftikhar776@gmail.com" class="primary-btn contact-button">
 
                                 Get In Touch
 
@@ -919,8 +923,8 @@
 
                                 <i class="fa-regular fa-envelope"></i>
 
-                                <a href="mailto:hassaniftikhar776%40gmail.com">
-                                    hassaniftikhar776&#64;gmail.com
+                                <a href="mailto:hassaniftikhar776@gmail.com">
+                                    hassaniftikhar776@gmail.com
                                 </a>
 
                             </div>
@@ -1001,7 +1005,7 @@
                     <i class="fa-brands fa-linkedin-in"></i>
                 </a>
 
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hassaniftikhar776%40gmail.com" target="_blank"
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hassaniftikhar776@gmail.com" target="_blank"
                     rel="noopener noreferrer" aria-label="Email">
                     <i class="fa-regular fa-envelope"></i>
                 </a>
@@ -1016,8 +1020,8 @@
 
     <script>
         /* =========================================================
-                       THEME TOGGLE
-                    ========================================================= */
+                   THEME TOGGLE
+                ========================================================= */
 
         const themeButton = document.getElementById("themeButton");
         const themeIcon = themeButton.querySelector("i");
