@@ -33,7 +33,7 @@
 
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
+        "@@context": "https://schema.org",
         "@type": "Person",
         "name": "Hassan Iftikhar",
         "jobTitle": "Full-Stack Laravel Developer",
@@ -614,10 +614,10 @@
 
                         <div class="project-image">
 
-                            <i class="fa-solid fa-list-check"></i>
+                            <img src="{{ asset('images/projects/taskflow-dashboard.png') }}" alt="TaskFlow dashboard"
+                                loading="lazy" decoding="async">
 
                         </div>
-
                         <div class="project-content">
 
                             <span class="project-type">
@@ -1020,8 +1020,8 @@
 
     <script>
         /* =========================================================
-                   THEME TOGGLE
-                ========================================================= */
+                       THEME TOGGLE
+                    ========================================================= */
 
         const themeButton = document.getElementById("themeButton");
         const themeIcon = themeButton.querySelector("i");
